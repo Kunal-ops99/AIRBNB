@@ -93,3 +93,46 @@ color: #222222;
 .show-img{
     height: 50vh;
 }
+
+@media (max-width: 600px) {
+
+  /* NAVBAR */
+  .navbar {
+    padding: 8px 12px !important;
+    width: 100vw;
+  }
+
+  .navbar-brand img {
+    height: 32px;
+  }
+
+  .navbar-toggler {
+    padding: 4px 8px;
+  }
+
+  /* CATEGORIES GRID */
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  .category-item img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .category-item span {
+    font-size: 12px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 12px !important;
+  }
+
+  footer p {
+    font-size: 12px;
+    margin: 0;
+  }
+}
